@@ -75,15 +75,12 @@ p{
     margin-top: 70px;
 }
 .categories{
-    margin:60px 300px;
-}
-.categories .row{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin:70px 0;
 }
 .col-3{
     flex-basis: 20%;
     min-width: 250px;
+    margin-bottom: 20px;
 }
 .col-3 img{
     width:100%;
@@ -96,12 +93,6 @@ p{
 }
 .blur{
     filter:blur(2px);
-}
-.overlay{
-    position:absolute;
-    width:250px;
-    height:462px;
-    background: rgba(62, 62, 151, 0.7);
 }
 .small-container{
     max-width: 1080px;
@@ -120,4 +111,22 @@ p{
 }
 .rating img{
     width: 8%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content:'';
+    background: #ff253b;
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
