@@ -22,7 +22,7 @@
                     <img src="images/w_logo.png" width="70px">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
                         <li><a href="">Home</a></li>
                         <li><a href="">Products</a></li>
                         <li><a href="">About</a></li>
@@ -31,17 +31,19 @@
                     </ul>
                 </nav>
                 <img src="images/cart.svg" width="30px" height="30px">
+                <img src="images/menu.svg" class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
-                    <h1>Get a whole new experience with newly released RockStar GTA V</h1>
+                    <h1 class="banner_heading_h1">Get a whole new experience with newly released RockStar GTA V</h1>
+                    <h2 class="banner_heading_h2">Get a whole new experience with newly released RockStar GTA V</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, animi. Impedit facere, porro
                         eius neque illum at velit, fugit laudantium repudiandae repellat sequi minima dolorum atque
                         voluptas labore dolor nulla?</p>
                     <a href="" class="btn">Buy Now</a>
                 </div>
                 <div class="col-2">
-                    <img src="images/gta5.png">
+                    <img class="banner_image" src="images/gta5.png">
                 </div>
             </div>
         </div>
@@ -130,6 +132,19 @@
         </div>
 
     </div>
+    <!-- ------------- js for toggle menu --------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 
 </html>
