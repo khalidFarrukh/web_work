@@ -156,6 +156,7 @@ p{
     .banner_image{
         display: block;
         position: relative;
+        top:10px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -163,7 +164,7 @@ p{
         position:absolute;
         top:90px;
         left:0;
-        background: #333;
+        background: rgb(117, 76, 29);
         width:100%;
         overflow: hidden;
         transition:0.5s;
@@ -195,7 +196,6 @@ p{
         position: relative;
         top:70px;
     }
-
     .row{
         text-align: center;
     }
