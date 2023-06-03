@@ -1,0 +1,1720 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: #0b6531;
+    display: flex;
+    justify-content: center;
+}
+
+.header .l1 {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+}
+
+.header .l1 .darkyellow_i_b {
+    position: absolute;
+    width: 16.9%;
+    height: 85.3%;
+    top: 14.7%;
+    left: 55.88%;
+    background-color: #e4aa3f;
+    transform: skewX(-14.7deg);
+}
+
+
+.header .l1 .white_i_b {
+    position: absolute;
+    width: 16.9%;
+    height: 85.3%;
+    right: 7.31%;
+    background-color: white;
+    transform: skewX(-14.7deg);
+}
+
+.header .bump_map {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    mix-blend-mode: multiply;
+}
+
+
+.header_actual {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+}
+
+.header_actual .l1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.header_actual .l1 a .logo {
+    position: absolute;
+    width: 7.6%;
+    top: 4%;
+    left: 7.8%;
+}
+
+.header_actual .l1 nav {
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    top: 6%;
+    left: 19%;
+    display: flex;
+}
+
+.header_actual .l1 nav .navbutton {
+    width: 12%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header_actual .l1 nav a {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: 95%;
+    color: white;
+}
+
+.header_actual .l1 .sunshape {
+    position: absolute;
+    width: 7.5%;
+    top: 17.04%;
+    left: 49%;
+}
+
+.header_actual .l1 .dish_image {
+    position: absolute;
+    width: 45%;
+    top: 21.5%;
+    right: 7.1%;
+}
+
+.header_actual .l1 .onion_1 {
+    position: absolute;
+    width: 12%;
+    bottom: 0.6%;
+    left: 14.4%;
+}
+
+.header_actual .l1 .onion_2 {
+    position: absolute;
+    width: 12.5%;
+    top: 83.4%;
+    left: 21.8%;
+}
+
+.header_actual .l1 .red_chilli {
+    position: absolute;
+    width: 12%;
+    top: 69.1%;
+    left: 38.6%;
+}
+
+.header_actual .l1 .title {
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    width: 45%;
+    top: 25%;
+    left: 9%;
+    letter-spacing: 7px;
+    line-height: 83%;
+    color: white;
+}
+
+.header_actual .l1 .description {
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width: 37%;
+    top: 47.5%;
+    left: 9%;
+    line-height: 30px;
+    color: white;
+}
+
+
+.header_actual .l1 .overlay {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    top: 15%;
+}
+
+.header_actual .l1 .get_started {
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 3.44%;
+    padding-top: 1.15%;
+    padding-bottom: 1.15%;
+    top: 64.1%;
+    left: 9.12%;
+    border-radius: 5px;
+    background-color: #e6ab40;
+    color: black;
+}
+
+.header_actual .l1 .get_started:hover {
+    background-color: #eba016;
+}
+
+.header_actual .l1 nav a:hover {
+    font-size: 110%;
+}
+
+.body1 {
+    position: relative;
+    width: 100%;
+    height: 740px;
+}
+
+.body1_actual {
+    position: relative;
+    width: 1440px;
+    height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body1_actual .l1,
+.body1_actual .l2,
+.body1_actual .l3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body1_actual .l1 .plant {
+    position: absolute;
+    width: 14%;
+    top: 12.8%;
+    left: 6.5%;
+}
+
+.body1_actual .l1 .onion_1 {
+    position: absolute;
+    width: 13%;
+    top: 6%;
+    right: 12%;
+}
+
+.body1_actual .l1 .onion_2 {
+    position: absolute;
+    width: 9%;
+    top: 11.1%;
+    left: 19.6%;
+}
+
+.body1_actual .l1 .red_chilli {
+    position: absolute;
+    width: 12%;
+    top: 12.8%;
+    right: 1.3%;
+}
+
+.body1_actual .l2 h1 {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    top: 12.5%;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.body1_actual .l2 .p {
+    position: relative;
+    width: 100%;
+    top: 13.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.body1_actual .l2 .p p {
+    position: relative;
+    width: 40%;
+    font-size: 15px;
+    color: #8f8e8e;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+}
+
+.body1_actual .l3 .cards {
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body1_actual .l3 .cards .card {
+    position: relative;
+    width: 20%;
+    height: 80%;
+    margin-left: 2.1%;
+    margin-right: 2.1%;
+    box-shadow: 0px 0px 20px rgb(128, 128, 128);
+}
+
+.body1_actual .l3 .cards .card:hover {
+    box-shadow: 0px 0px 30px rgb(100, 100, 100);
+}
+
+.body1_actual .l3 .cards .card img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.body1_actual .l3 .cards .card .bottom {
+    position: relative;
+    width: 100%;
+    height: 28%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.body1_actual .l3 .cards .card .bottom .pname {
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+    left: 10%;
+}
+
+.body1_actual .l3 .cards .card .bottom .pprice {
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #50e1d7;
+    right: 10%;
+}
+
+.body1_actual .l3 .pointers {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body1_actual .l3 .pointers .pointer {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    border-radius: 50%;
+    border: 3px solid #d5d5d5;
+}
+
+
+.body2 {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    background-color: #e4aa3f;
+    justify-content: center;
+}
+
+
+.body2 .l1,
+.body2 .l2 {
+    position: absolute;
+    width: 1440px;
+    height: 640px;
+}
+
+.body2 .l1 .italic_green_box {
+    position: absolute;
+    width: 14.2%;
+    height: 54.6%;
+    left: 13.13%;
+    background-color: #0a5e2d;
+    transform: skewX(-14.7deg);
+}
+
+.body2 .l1 .italic_white_box {
+    position: absolute;
+    width: 14.2%;
+    height: 54.5%;
+    top: 24%;
+    left: 25.3%;
+    background-color: white;
+    transform: skewX(-14.7deg);
+}
+
+.body2 .bump_map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.body2 .l2 .redbox {
+    position: absolute;
+    width: 340px;
+    height: 75px;
+    top: 35%;
+    left: 53.5%;
+    background-color: #dc3a3a;
+}
+
+.body2_actual {
+    position: absolute;
+    width: 1440px;
+    height: 100%;
+}
+
+.body2_actual .l1,
+.body2_actual .l2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body2_actual .l1 .sunshape {
+    position: absolute;
+    width: 7.5%;
+    top: 22%;
+    left: 3.5%;
+}
+
+.body2_actual .l1 .main_image {
+    position: absolute;
+    width: 29%;
+    top: 9.1%;
+    left: 9%;
+}
+
+.body2_actual .l1 .red_chilli {
+    position: absolute;
+    width: 12%;
+    top: 10%;
+    right: 2.7%;
+}
+
+.body2_actual .l1 .plant {
+    position: absolute;
+    width: 15%;
+    top: 73%;
+    right: 7%;
+}
+
+.body2_actual .l1 .onion_1 {
+    position: absolute;
+    width: 9%;
+    top: 60.5%;
+    left: 91.7%;
+}
+
+.body2_actual .l2 .heading1 {
+    position: absolute;
+    top: 24%;
+    left: 47%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.body2_actual .l2 .heading2 {
+    position: absolute;
+    top: 36.3%;
+    left: 47%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.body2_actual .l2 .description {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 47%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    color: white;
+}
+
+.body2_actual .l2 .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body2_actual .l2 .shop_now {
+    position: absolute;
+    top: 64.6%;
+    left: 47.3%;
+    padding: 1.2%;
+    padding-left: 3.95%;
+    padding-right: 3.95%;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #0a5c2c;
+    color: white;
+}
+
+.body2_actual .l2 .shop_now:hover {
+    background-color: #0e7e3c;
+}
+
+.body3 {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.body3_actual {
+    position: absolute;
+    width: 1440px;
+    height: 640px;
+}
+
+
+.body3_actual .darkyellow_i_b {
+    position: absolute;
+    width: 16.5%;
+    height: 63.6%;
+    top: 21.5%;
+    left: 64.8%;
+    background-color: #f6bd55;
+    transform: skewX(-14.7deg);
+}
+
+.body3_actual .main_image {
+    position: absolute;
+    width: 28.5%;
+    right: 12.9%;
+}
+
+
+.body3_actual .sunshape {
+    position: absolute;
+    width: 7.5%;
+    top: 42.6%;
+    right: 5.62%;
+}
+
+.body3_actual .onion_1 {
+    position: absolute;
+    width: 9%;
+    top: 22.4%;
+    left: 50%;
+}
+
+.body3_actual .onion_2 {
+    position: absolute;
+    width: 9%;
+    top: 68%;
+    left: 40.7%;
+}
+
+.body3_actual .red_chilli {
+    position: absolute;
+    width: 12%;
+    top: 30.5%;
+    left: 3.4%;
+}
+
+.body3_actual .heading1 {
+    position: absolute;
+    top: 24%;
+    left: 15.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.body3_actual .heading2 {
+    position: absolute;
+    top: 33.3%;
+    left: 15.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.body3_actual .description {
+    position: absolute;
+    width: 40%;
+    top: 46%;
+    left: 15.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    color: #b7b7b7;
+}
+
+.body3_actual .shop_now {
+    position: absolute;
+    top: 64.6%;
+    left: 15.5%;
+    padding: 1.2%;
+    padding-left: 3.95%;
+    padding-right: 3.95%;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #e4aa3f;
+    color: white;
+}
+
+.body3_actual .shop_now:hover {
+    background-color: #e2a229;
+}
+
+
+.body4 {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+}
+
+
+.body4 .l1,
+.body4 .l2 {
+    position: absolute;
+    width: 1440px;
+    height: 640px;
+}
+
+.body4 .l1 .italic_green_box {
+    position: absolute;
+    width: 14.2%;
+    height: 54.6%;
+    left: 13.13%;
+    background-color: #0a5e2d;
+    transform: skewX(-14.7deg);
+}
+
+.body4 .l1 .italic_yellow_box {
+    position: absolute;
+    width: 14.2%;
+    height: 54.5%;
+    top: 24%;
+    left: 25.3%;
+    background-color: #f6bd55;
+    transform: skewX(-14.7deg);
+}
+
+.body4 .bump_map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.body4 .l2 .greenbox {
+    position: absolute;
+    width: 340px;
+    height: 75px;
+    top: 35%;
+    left: 53.5%;
+    background-color: #0a5c2c;
+}
+
+.body4_actual {
+    position: absolute;
+    width: 1440px;
+    height: 100%;
+}
+
+.body4_actual .sunshape {
+    position: absolute;
+    width: 7.5%;
+    top: 22%;
+    left: 3.5%;
+}
+
+.body4_actual .main_image {
+    position: absolute;
+    width: 31%;
+    top: 19%;
+    left: 10%;
+}
+
+.body4_actual .red_chilli {
+    position: absolute;
+    width: 12%;
+    top: 10%;
+    right: 2.7%;
+}
+
+.body4_actual .plant {
+    position: absolute;
+    width: 15%;
+    top: 73%;
+    right: 7%;
+}
+
+.body4_actual .onion_1 {
+    position: absolute;
+    width: 9%;
+    top: 60.5%;
+    left: 91.7%;
+}
+
+.body4_actual .heading1 {
+    position: absolute;
+    top: 24%;
+    left: 47%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.body4_actual .heading2 {
+    position: absolute;
+    top: 36.3%;
+    left: 47%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.body4_actual .heading3 {
+    position: absolute;
+    top: 36.3%;
+    left: 54.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+}
+
+
+.body4_actual .description {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 47%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+
+.body4_actual .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body4_actual .shop_now {
+    position: absolute;
+    top: 64.6%;
+    left: 47.3%;
+    padding: 1.2%;
+    padding-left: 3.95%;
+    padding-right: 3.95%;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #f6bd55;
+    color: black;
+}
+
+.body4_actual .shop_now:hover {
+    background-color: #e2a229;
+}
+
+.body5 {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.body5_actual {
+    position: absolute;
+    width: 1440px;
+    height: 640px;
+}
+
+.body5_actual .darkpink_i_b {
+    position: absolute;
+    width: 16.5%;
+    height: 63.6%;
+    top: 21.5%;
+    left: 64.8%;
+    background-color: #f69191;
+    transform: skewX(-14.7deg);
+}
+
+.body5_actual .main_image {
+    position: absolute;
+    width: 32%;
+    top: 7%;
+    right: 10%;
+}
+
+
+.body5_actual .sunshape {
+    position: absolute;
+    width: 7.5%;
+    top: 42.6%;
+    right: 5.62%;
+}
+
+.body5_actual .onion_1 {
+    position: absolute;
+    width: 9%;
+    top: 22.4%;
+    left: 50%;
+}
+
+.body5_actual .onion_2 {
+    position: absolute;
+    width: 9%;
+    top: 68%;
+    left: 40.7%;
+}
+
+.body5_actual .red_chilli {
+    position: absolute;
+    width: 12%;
+    top: 30.5%;
+    left: 3.4%;
+}
+
+.body5_actual .heading1 {
+    position: absolute;
+    top: 24%;
+    left: 15.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.body5_actual .heading2 {
+    position: absolute;
+    top: 33.3%;
+    left: 15.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.body5_actual .description {
+    position: absolute;
+    width: 40%;
+    top: 46%;
+    left: 15.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    color: #b7b7b7;
+}
+
+.body5_actual .shop_now {
+    position: absolute;
+    top: 64.6%;
+    left: 15.5%;
+    padding: 1.2%;
+    padding-left: 3.95%;
+    padding-right: 3.95%;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #f69191;
+    color: white;
+}
+
+.body5_actual .shop_now:hover {
+    background-color: #f16868;
+}
+
+.body6 {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.body6_actual {
+    position: absolute;
+    width: 1440px;
+    height: 640px;
+}
+
+.body6_actual h1 {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    top: 14%;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.body6_actual .p {
+    position: relative;
+    width: 100%;
+    top: 16.4%;
+    display: flex;
+    justify-content: center;
+}
+
+.body6_actual .p p {
+    position: relative;
+    width: 40%;
+    font-size: 15px;
+    color: #8f8e8e;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+}
+
+.body6_actual .noddle_1 {
+    position: absolute;
+    width: 30%;
+    bottom: 0;
+    transform: scaleX(-1);
+}
+
+.body6_actual .noddle_2 {
+    position: absolute;
+    width: 30%;
+    bottom: 0;
+    right: 0;
+}
+
+.body6_actual .purple_i_b_transparent {
+    position: absolute;
+    width: 4.1%;
+    height: 13.8%;
+    top: 57%;
+    left: 25.4%;
+    background-color: #aa7dc1;
+    opacity: 0.3;
+    transform: skewX(-14.7deg);
+}
+
+.body6_actual .purple_i_b_solid {
+    position: absolute;
+    width: 6.1%;
+    height: 18.8%;
+    top: 49.2%;
+    left: 22.5%;
+    background-color: #aa7dc1;
+    transform: skewX(-14.7deg);
+}
+
+.body6_actual .purple_i_b_solid .store {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+}
+
+.body6_actual .arrow1 {
+    position: absolute;
+    top: 58%;
+    left: 36%;
+}
+
+.body6_actual .yellow_i_b_transparent {
+    position: absolute;
+    width: 4.1%;
+    height: 13.8%;
+    top: 57%;
+    left: 48.4%;
+    background-color: #f6bd55;
+    opacity: 0.3;
+    transform: skewX(-14.7deg);
+}
+
+.body6_actual .yellow_i_b_solid {
+    position: absolute;
+    width: 6.1%;
+    height: 18.8%;
+    top: 49.2%;
+    left: 45.5%;
+    background-color: #f6bd55;
+    transform: skewX(-14.7deg);
+}
+
+.body6_actual .yellow_i_b_solid .cash {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+}
+
+.body6_actual .arrow2 {
+    position: absolute;
+    top: 58%;
+    left: 60%;
+}
+
+.body6_actual .pink_i_b_transparent {
+    position: absolute;
+    width: 4.1%;
+    height: 13.8%;
+    top: 57%;
+    left: 71.4%;
+    background-color: #f69191;
+    opacity: 0.3;
+    transform: skewX(-14.7deg);
+}
+
+.body6_actual .pink_i_b_solid {
+    position: absolute;
+    width: 6.1%;
+    height: 18.8%;
+    top: 49.2%;
+    left: 68.5%;
+    background-color: #f69191;
+    transform: skewX(-14.7deg);
+}
+
+.body6_actual .pink_i_b_solid .wrap {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+}
+
+.body6_actual .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body7 {
+    position: relative;
+    width: 100%;
+    height: 721px;
+    background-color: #dfdede;
+    display: flex;
+    justify-content: center;
+}
+
+.body7_actual {
+    position: absolute;
+    width: 1440px;
+    height: 721px;
+}
+
+.body7_actual h1 {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    top: 8%;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.body7_actual .p {
+    position: relative;
+    width: 100%;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.body7_actual .p p {
+    position: relative;
+    width: 40%;
+    font-size: 15px;
+    color: #8f8e8e;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+}
+
+.body7_actual .darkyellow_i_b {
+    position: absolute;
+    width: 16.5%;
+    height: 56.6%;
+    top: 34%;
+    left: 19.8%;
+    background-color: #f6bd55;
+    transform: skewX(-14.7deg);
+}
+
+.body7_actual .cyan_rectangle {
+    position: absolute;
+    width: 51%;
+    height: 45%;
+    top: 40%;
+    left: 27%;
+    border-radius: 40px;
+    background-color: #30c4ba;
+}
+
+.body7_actual .red_chilli {
+    position: absolute;
+    width: 11.5%;
+    top: 33%;
+    left: 39.4%;
+}
+
+.body7_actual .onion_1 {
+    position: absolute;
+    width: 10.5%;
+    top: 36%;
+    right: 7%;
+}
+
+.body7_actual .main_image {
+    position: absolute;
+    width: 16%;
+    bottom: 0;
+    right: 22%;
+    transform: scale(-1);
+}
+
+.body7_actual .best_chef {
+    position: absolute;
+    width: 20%;
+    top: 22%;
+    left: 16%;
+}
+
+.body7_actual .chef_message {
+    position: absolute;
+    width: 31%;
+    top: 46%;
+    left: 40%;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+}
+
+
+.body7_actual .chef_name {
+    position: absolute;
+    top: 66%;
+    left: 40%;
+    font-family: "Nunito Sans";
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.body7_actual .job_position {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.body7_actual .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.body8 {
+    position: relative;
+    width: 100%;
+    height: 920px;
+    display: flex;
+    justify-content: center;
+}
+
+.body8_actual {
+    position: absolute;
+    width: 1440px;
+    height: 100%;
+}
+
+.body8_actual h1 {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.body8_actual .onion_1 {
+    position: absolute;
+    width: 10%;
+    top: 8%;
+    left: 20%;
+    opacity: 0.8;
+}
+
+.body8_actual .onion_2 {
+    position: absolute;
+    width: 12%;
+    top: 8%;
+    left: 76%;
+}
+
+.body8_actual .plant {
+    position: absolute;
+    width: 12%;
+    top: 20%;
+    left: 5%;
+}
+
+.body8_actual .red_chilli {
+    position: absolute;
+    width: 12%;
+    top: 20%;
+    left: 88%;
+}
+
+.body8_actual .row1 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body8_actual .row2 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.body8_actual .row1 .recipe,
+.body8_actual .row2 .recipe {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.body8_actual .row1 .recipe img,
+.body8_actual .row2 .recipe img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+.body8_actual .row1 .recipe .when_hover_affect,
+.body8_actual .row2 .recipe .when_hover_affect {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.body8_actual .row1 .recipe .when_hover_affect .alpha_bg,
+.body8_actual .row2 .recipe .when_hover_affect .alpha_bg {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #f6bd55;
+    mix-blend-mode: multiply;
+}
+
+.body8_actual .row1 .recipe .when_hover_affect p,
+.body8_actual .row2 .recipe .when_hover_affect p {
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+}
+
+.body8_actual .row1 .recipe .when_hover_cause,
+.body8_actual .row2 .recipe .when_hover_cause {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+.body8_actual .overlay {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+}
+
+
+.body9 {
+    position: relative;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+}
+
+.body9_actual {
+    position: absolute;
+    width: 1440px;
+    height: 100%;
+}
+
+.body9_actual .body9_thumbnail {
+    position: absolute;
+    width: 659px;
+    height: 417px;
+    top: 15.5%;
+    left: 9%;
+    filter: drop-shadow(15px 15px 25px gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body9_actual .body9_thumbnail img {
+    position: absolute;
+    width: 100%;
+}
+
+.body9_actual .body9_thumbnail .image_mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.body9_actual .body9_thumbnail .playbutton {
+    position: absolute;
+    width: 10%;
+}
+
+.body9_actual .body9_thumbnail .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body9_actual h1 {
+    position: absolute;
+    top: 23%;
+    left: 60%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.body9_actual p {
+    position: absolute;
+    width: 30%;
+    top: 40%;
+    left: 60%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.body9_actual .facebook_icon {
+    position: absolute;
+    width: 3%;
+    top: 63%;
+    left: 60%;
+}
+
+.body9_actual .instagram_icon {
+    position: absolute;
+    width: 3%;
+    top: 63%;
+    left: 66%;
+}
+
+.body9_actual .twitter_icon {
+    position: absolute;
+    width: 3%;
+    top: 63%;
+    left: 72%;
+}
+
+.body9_actual .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body10 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.body10_actual {
+    position: absolute;
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.body10 iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body10 .contact_us {
+    position: absolute;
+    width: 340px;
+    height: 400px;
+    right: 10%;
+    background-color: white;
+    border-radius: 15px;
+    filter: drop-shadow(10px 10px 20px);
+    display: flex;
+    justify-content: center;
+}
+
+.body10 .contact_us h1 {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+.body10 .contact_us .email {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 17%;
+    border: none;
+    outline: none;
+    border-width: 0;
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+.body10 .contact_us .gender {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 29%;
+    border: none;
+    outline: none;
+    border-width: 0;
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+.body10 .contact_us #message {
+    position: absolute;
+    resize: none;
+    top: 41%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+.body10 .contact_us .submitbtn {
+    position: absolute;
+    top: 75%;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: cyan;
+    border-radius: 2px;
+    border: none;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #0a5a2b;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_actual {
+    position: absolute;
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer_actual .col1 {
+    position: absolute;
+    width: 15%;
+    left: 5%;
+}
+
+.footer_actual .col1 h1 {
+    position: relative;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.footer_actual .col1 .p1 {
+    position: relative;
+    width: 100%;
+    margin-top: 13%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+
+.footer_actual .col1 .p2 {
+    position: relative;
+    width: 100%;
+    margin-top: 3%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+
+.footer_actual .col1 .p3 {
+    position: relative;
+    width: 100%;
+    margin-top: 13%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+
+.footer_actual .col2 {
+    position: absolute;
+    width: 10%;
+    left: 32%;
+    /* background-color: blue; */
+}
+
+
+.footer_actual .col2 .div1 {
+    position: relative;
+    width: 100%;
+}
+
+.footer_actual .col2 .div2 {
+    position: relative;
+    width: 100%;
+    margin-top: 6%;
+}
+
+.footer_actual .col2 .div1 a {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_actual .col2 .div2 a {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_actual .col3 {
+    position: absolute;
+    width: 10%;
+    left: 42%;
+    /* background-color: blue; */
+}
+
+
+.footer_actual .col3 .div1 {
+    position: relative;
+    width: 100%;
+}
+
+.footer_actual .col3 .div2 {
+    position: relative;
+    width: 100%;
+    margin-top: 6%;
+}
+
+.footer_actual .col3 .div1 a {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_actual .col3 .div2 a {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_actual .col4 {
+    position: absolute;
+    width: 10%;
+    left: 57%;
+    /* background-color: blue; */
+}
+
+
+.footer_actual .col4 .div1 {
+    position: relative;
+    width: 100%;
+}
+
+.footer_actual .col4 .div2 {
+    position: relative;
+    width: 100%;
+    margin-top: 6%;
+}
+
+.footer_actual .col4 .div1 a {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_actual .col4 .div2 a {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_actual .col5 {
+    position: absolute;
+    width: 20%;
+    left: 76%;
+}
+
+.footer_actual .col5 .logo {
+    position: relative;
+    width: 30%;
+    margin-bottom: 10%;
+}
+
+.footer_actual .col5 p {
+    position: relative;
+    width: 100%;
+    margin-top: 3%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+
+.footer_actual .col5 .social_media_icons {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer_actual .col5 .social_media_icons a {
+    position: relative;
+    margin-right: 7%;
+}
+
+.footer_actual .col5 .social_media_icons a .media_icon {
+    display: flex;
+    width: 22px;
+    height: 23px;
+}

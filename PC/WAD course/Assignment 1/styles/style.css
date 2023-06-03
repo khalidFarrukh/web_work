@@ -1,0 +1,878 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text_white {
+    color: white;
+}
+
+.text_black {
+    color: black;
+}
+
+.text_aqua {
+    color: aqua
+}
+
+.theme_color {
+    background-color: rgb(251, 195, 2);
+}
+
+.navbar_bg {
+    position: relative;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(217, 171, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    width: 860px;
+    height: 85px;
+}
+
+.navbar .left_container {
+    z-index: 1;
+    position: relative;
+    width: 18%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_container #a1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_container #a1 img {
+    width: 100%;
+}
+
+.navbar .middle_container {
+    z-index: 1;
+    position: relative;
+    width: 59%;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.middle_container .middle {
+    display: flex;
+    justify-content: center;
+}
+
+.middle .navigation {
+    display: flex;
+    width: 13%;
+    height: 85px;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle .navigation a {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.navbar .right_container {
+    position: relative;
+    display: flex;
+}
+
+.right_container .search_bar_area {
+    display: flex;
+    width: 200px;
+    height: 85px;
+    align-items: center;
+
+}
+
+.searchbar {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+}
+
+.searchbar_shadow {
+    box-shadow: 7px 7px 10px rgb(202, 160, 0);
+}
+
+input[type=text] {
+    position: absolute;
+    color: white;
+    left: 10px;
+    width: 125px;
+    height: 40px;
+    border-style: hidden;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+input[type=text]::placeholder {
+    color: white;
+}
+
+.searchbar button[type=submit] {
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+    width: 50px;
+    height: 40px;
+    border-style: hidden;
+    outline: none;
+    background-color: rgb(0, 189, 201);
+}
+
+.searchbar button[type=submit]:hover {
+    cursor: pointer;
+}
+
+#container1_bg {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    position: relative;
+    width: 860px;
+    height: 550px;
+}
+
+.container1 .colm1 {
+    position: relative;
+    display: inline-flex;
+    width: 465px;
+    height: 550px;
+}
+
+.container1 .colm1 h1 {
+    position: absolute;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 47px;
+    top: 24%;
+    line-height: 55px;
+}
+
+.container1 .colm1 p {
+    position: absolute;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 22px;
+    top: 47.5%;
+    line-height: 25px;
+}
+
+.container1 .colm1 .buttons {
+    position: absolute;
+    width: 460px;
+    top: 68.5%;
+}
+
+.container1 .colm1 .buttons #a1 {
+    position: relative;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(0, 189, 201);
+}
+
+.container1 .colm1 .buttons #a2 {
+    position: relative;
+    margin-left: 20px;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.container1 .colm2 {
+    position: relative;
+    display: inline-flex;
+    width: 390px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 .colm2 img {
+    position: absolute;
+    height: 80%;
+}
+
+#container2_bg {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    position: relative;
+    /* display: flex; */
+    width: 860px;
+    height: 550px;
+}
+
+.container2 .colm1 {
+    position: relative;
+    display: inline-block;
+    width: 465px;
+    height: 550px;
+}
+
+.container2 .colm1 h1 {
+    position: absolute;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 34px;
+    width: 430px;
+    top: 24%;
+    line-height: 40px;
+}
+
+.container2 .colm1 p {
+    position: absolute;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 22px;
+    top: 45%;
+    line-height: 25px;
+}
+
+.container2 .colm1 .buttons {
+    position: absolute;
+    width: 460px;
+    top: 69.5%;
+}
+
+.container2 .colm1 .buttons a {
+    position: relative;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.container2 .colm2 {
+    position: relative;
+    display: inline-block;
+    width: 390px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .colm2 .layer1 {
+    position: absolute;
+    display: flex;
+    width: 390px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container2 .colm2 .layer2 {
+    position: relative;
+    width: 100%;
+    height: 370px;
+}
+
+.container2 .colm2 .layer1 .layer2 .bg_bl_box {
+    position: absolute;
+    bottom: 0%;
+    width: 200px;
+    height: 150px;
+}
+
+.container2 .colm2 .layer1 .layer2 .layer3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .colm2 .layer1 .layer2 .layer3 .thumbnail {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+}
+
+.container2 .colm2 .layer1 .layer2 .layer3 .layer4 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+}
+
+.container2 .colm2 .layer1 .layer2 .layer3 .layer4 #a1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.container2 .colm2 .layer1 .layer2 .layer3 .layer4 #a2 {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .colm2 .layer1 .layer2 .layer3 .layer4 #a2 img {
+    position: absolute;
+    width: 20%;
+}
+
+#container3_bg {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 720px;
+    justify-content: center;
+}
+
+#container3_bg .container3 {
+    position: relative;
+    display: block;
+    width: 860px;
+    height: 720px;
+}
+
+.container3 .heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    margin-bottom: 14px;
+}
+
+.container3 .heading h1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 47px;
+}
+
+.container3 .paragraph {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container3 .paragraph p {
+    width: 60%;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.container3 .row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container3 .row .card {
+    position: relative;
+    width: 28%;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.container3 .row .card .thumbnail {
+    margin-top: 25%;
+    margin-bottom: 7%;
+    width: 100%;
+}
+
+.container3 .row .card h1 {
+
+    text-align: center;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.container3 .row .card p {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container3 .row .card .values {
+    display: flex;
+    justify-content: center;
+}
+
+.container3 .row .card .values .colm1 {
+    width: 30%;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 .row .card .values .colm2 {
+    width: 30%;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 .row .card .values .colm1 .line_through {
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.container3 .row .card .values .colm1 #canceled {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.container3 .row .card .buybutton {
+    position: relative;
+    margin-bottom: 25%;
+    margin-top: 7%;
+    width: 130px;
+    height: 50px;
+    font-family: poppins;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 189, 201);
+}
+
+.container3 .row .card .name {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.container3 .row .card .job_title {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container3 .row .card .social_links {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.container3 .row .card .social_links .icon {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgb(218, 142, 0);
+}
+
+.container3 .row .card .social_links .icon .mask {
+    position: relative;
+    width: 32px;
+}
+
+#container4_bg {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container4_bg .container4 {
+    position: relative;
+    display: flex;
+    width: 940px;
+    justify-content: center;
+}
+
+.container4 img {
+    position: relative;
+    width: 100%;
+}
+
+.container4 .layer1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(252, 195, 2, 0.8392156862745098);
+}
+
+.container4 .layer1 .colm {
+    position: relative;
+    width: 28%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 11.25%;
+    padding-bottom: 11.25%;
+}
+
+.container4 .layer1 .colm .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container4 .layer1 .colm .row .icon {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20%;
+}
+
+.container4 .layer1 .colm .row .count {
+    position: relative;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.container4 .layer1 .colm .row .heading {
+    position: relative;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#container5_bg {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 850px;
+    justify-content: center;
+}
+
+#container5_bg .container5 {
+    position: relative;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 860px;
+    height: 850px;
+}
+
+.container5 .heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    margin-bottom: 14px;
+}
+
+.container5 .heading h1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.container5 .paragraph {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container5 .paragraph p {
+    width: 60%;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.container5 .row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container5 .row .card {
+    position: relative;
+    width: 35%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.container5 .row .card .border {
+    position: absolute;
+    width: 98%;
+    height: 70%;
+    z-index: -1;
+    right: 0px;
+    margin-top: 65%;
+    border: 2px solid lightgray;
+}
+
+.container5 .row .card .thumbnail {
+    margin-top: 25%;
+    margin-bottom: 7%;
+    width: 100%;
+}
+
+.container5 .row .card h1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container5 .row .card #p1 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 17px;
+    width: 85%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container5 .row .card #p2 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 12px;
+    width: 85%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container5 .row .card .readmore {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container5 .row .card a {
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+    width: 50%;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+}
+
+#footer #layer1 {
+    position: relative;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 860px;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#footer #layer1 #colm1,
+#footer #layer1 #colm2 {
+    position: relative;
+    width: 25%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#footer #layer1 #colm1 h1,
+#footer #layer1 #colm2 h1 {
+    position: relative;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 6%;
+}
+
+#footer #layer1 #colm1 a,
+#footer #layer1 #colm2 a {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+#footer #layer1 #colm3 {
+    position: relative;
+    width: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#footer #layer1 #colm3 h1 {
+    position: relative;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+#footer #layer1 #colm3 p {
+    position: relative;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+#footer #layer1 #colm3 #inputbar_area {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+}
+
+#inputbar {
+    position: absolute;
+    width: 320px;
+    height: 40px;
+}
+
+
+#inputbar input[type=text] {
+    position: absolute;
+    color: white;
+    left: 10px;
+    width: 225px;
+    height: 40px;
+    border-style: hidden;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+#inputbar input[type=text]::placeholder {
+    color: white;
+}
+
+#inputbar button[type=submit] {
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 40px;
+    border-style: hidden;
+    outline: none;
+    background-color: rgb(0, 189, 201);
+}
+
+#inputbar button[type=submit]:hover {
+    cursor: pointer;
+}
+
+#footer #layer1 #colm3 #social_links {
+    position: relative;
+    width: 190px;
+    height: 50px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#footer #layer1 #colm3 #social_links #icon {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+#footer #layer1 #colm3 #social_links #icon img {
+    position: relative;
+    width: 32px;
+}
+
+
+
+.flip {
+    transform: scale(-1, 1);
+}
+
+.tra {
+    text-align: right;
+}
