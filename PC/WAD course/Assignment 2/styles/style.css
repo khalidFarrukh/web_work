@@ -1461,7 +1461,7 @@
     border: none;
     outline: none;
     border-width: 0;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(240, 240, 240);
     border-radius: 5px;
 }
 
@@ -1475,20 +1475,21 @@
     border: none;
     outline: none;
     border-width: 0;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(240, 240, 240);
     border-radius: 5px;
 }
 
 .body10 .contact_us #message {
     position: absolute;
     resize: none;
+    width: 86%;
     top: 41%;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     outline: none;
     border: none;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(240, 240, 240);
     border-radius: 5px;
 }
 
