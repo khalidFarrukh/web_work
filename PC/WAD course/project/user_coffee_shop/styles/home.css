@@ -1,0 +1,73 @@
+.row1 {
+    position: relative;
+    width: 100%;
+    margin-top: 110px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.row1 .container {
+    position: relative;
+    width: 1200px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 {
+    position: relative;
+    width: 100%;
+    margin-top: 1.5%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.row2 .container {
+    position: relative;
+    width: 1200px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row2 .container #tables {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.row2 .container #tables a {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: rgb(255, 156, 43);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.row2 .container #tables a img {
+    position: absolute;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.row2 .container #tables a h1 {
+    position: absolute;
+    top: 40%;
+    color: black;
+}

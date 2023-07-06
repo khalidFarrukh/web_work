@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 216, 171);
+}
+
+.navbar_bg {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 156, 43);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    position: absolute;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo_bg {
+    position: absolute;
+    left: 30px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.logo_clickable {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbtns {
+    position: absolute;
+    left: 120px;
+    width: 900px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbtn {
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container1_bg {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    position: absolute;
+    width: 1200px;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+
+.container1_row1 {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1_row2 {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container1_row2 #form1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: center;
+}
+
+#data_entery_table {
+    position: absolute;
+    border-collapse: collapse;
+    width: 70%;
+    top: 35px;
+}
+
+#data_entery_table td,
+#data_entery_table th {
+    border: 1px solid rgb(255, 167, 68);
+    /* padding: 8px; */
+}
+
+#data_entery_table tr {
+    background-color: white;
+}
+
+#data_entery_table th {
+
+    padding: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: rgb(255, 156, 43);
+    color: black;
+}
+
+#data_entery_table tr td input {
+    width: 92%;
+    height: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-style: none;
+    outline: none;
+}
+
+#submitbtn {
+    position: absolute;
+    width: 70%;
+    top: 120px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(255, 156, 43);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#submitbtn:hover {
+    background-color: rgb(255, 186, 106);
+}
+
+.container2_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    position: absolute;
+    width: 1200px;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.container2_row1 {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2_row2 {
+    position: relative;
+    width: 100%;
+    height: 93%;
+    /* background-color: lightskyblue; */
+}
+
+#product_table_output {
+    position: absolute;
+    border-collapse: collapse;
+    width: 70%;
+    top: 35px;
+    left: 7%;
+}
+
+#product_table_output td,
+#product_table_output th {
+    border: 1px solid rgb(255, 167, 68);
+    padding: 8px;
+}
+
+#product_table_output td {
+    background-color: #f2f2f2;
+}
+
+#product_table_output th {
+    padding: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: rgb(255, 156, 43);
+    color: black;
+}
+
+#product_table_output .delete_cell {
+    position: absolute;
+    left: 830px;
+    width: 130px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+#delete_btn_bg {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#delete_btn_clickable {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#delete_btn_text {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+#product_table_output .update_cell {
+    position: absolute;
+    left: 920px;
+    width: 140px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#update_btn_bg {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#update_btn_clickable {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#update_btn_text {
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+#update_btn {
+    background-color: palegreen;
+}
+
+
+
+
+/*<a id ='delete_btn_clickable' href='delete.php?id=".$row["id"]."'>
+						</a>*/

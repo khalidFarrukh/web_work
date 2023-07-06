@@ -1,0 +1,264 @@
+.row1 {
+    position: relative;
+    width: 100%;
+    margin-top: 110px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.row1 .container {
+    position: relative;
+    width: 1200px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 {
+    position: relative;
+    width: 100%;
+    margin-top: 1.5%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.row2 .zero_cart {
+    margin-top: 15%;
+    position: relative;
+    color: black;
+    font-size: 50px;
+    font-weight: 300;
+    display: flex;
+}
+
+
+.container_block {
+    position: relative;
+    display: block;
+}
+
+#cart_product_list {
+    position: relative;
+    /* background-color: blue; */
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+
+#cart_product_list tr .table_no {
+
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    white-space: nowrap;
+    background-color: rgb(255, 186, 106);
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cart_product_list tr .order_now {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart_product_list tr .order_now:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#cart_product_list tr .category_name_bg {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 186, 106);
+    border-radius: 50px;
+}
+
+#cart_product_list tr .category_name_bg p {
+    white-space: nowrap;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #cart_product_list {
+    position: relative;
+    background-color: blue;
+    display: block;
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+
+#cart_product_list tr .table_no_bg {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 186, 106);
+    border-radius: 50px;
+}
+
+#cart_product_list tr .table_no_bg p {
+    white-space: nowrap;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart_product_list tr .category_name_bg {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 186, 106);
+    border-radius: 50px;
+}
+
+#cart_product_list tr .category_name_bg p {
+    white-space: nowrap;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.pinfo_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white
+}
+
+.pinfo_grid .checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.pinfo_grid .pimage {
+    margin-left: 20px;
+    width: 60px;
+}
+
+.pinfo_grid .pname {
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.pinfo_grid .pprice {
+    margin-left: 20px;
+    white-space: nowrap;
+    color: orangered;
+}
+
+.quantity_cell {
+    margin-left: 20px;
+    position: relative;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(255, 218, 150);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    position: relative;
+    /* margin-left: 20px; */
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 186, 106);
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add:hover {
+    cursor: pointer;
+    background-color: rgb(255, 156, 43);
+}
+
+.add p {
+    font-size: 25px;
+}
+
+.quantity {
+    position: relative;
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 186, 106);
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub:hover {
+    cursor: pointer;
+    background-color: rgb(255, 156, 43);
+}
+
+.sub p {
+    font-size: 25px;
+}
+
+.pinfo_grid .delete_btn {
+    margin-left: 20px;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    border: none;
+}
+
+.pinfo_grid .delete_btn:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
